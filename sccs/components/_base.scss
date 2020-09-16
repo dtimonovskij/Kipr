@@ -4,7 +4,7 @@
   *:last-child {
     margin-bottom: 0;
   }
-  
+
   html {
     font-family: "Roboto";
     font-size: 14px;
@@ -15,11 +15,13 @@
   .wrapper{
   overflow: hidden;
   }
-  .main{
-    flex-grow: 1;
-  }
   .container {
     max-width: 932px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  .container-md{
+    max-width: 1092px;
     padding: 0 16px;
     margin: 0 auto;
   }
@@ -74,3 +76,4 @@
   * + h6 {
     margin-top: 0.67em;
   }
+  

@@ -1,0 +1,47 @@
+.form-control {
+ margin-bottom: 5px;
+  }
+  
+  .input,
+  .select,
+  .textarea {
+    width: 100%;
+    border: 1px solid transparent;
+    padding: 16px 18px;
+    background-color: #fff;
+    margin: 0;
+    border-radius: 10px;
+    font-size: inherit;
+    box-shadow: 2.5px 3.2px 9px rgba(0, 0, 0, 0.35);
+  }
+  
+  .input,
+  .select {
+    height: 45px;
+  }
+  .input:focus,
+  .select:focus,
+  .textarea:focus {
+    outline: none;
+    background-color: #fff;
+    color:#000000;
+    border-color: #000000;
+  }
+  
+  .input:disabled,
+  .select:disabled,
+  .textarea:disabled {
+    background-color: #f8f8f8;
+    color: #999999;
+    border-color: #999999;
+  }
+  
+  .input::placeholder,
+  .textarea::placeholder {
+    color: #02679E;
+  }
+  
+  .textarea {
+    resize: none;
+    height: 200px;
+  }

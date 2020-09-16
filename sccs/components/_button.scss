@@ -6,8 +6,8 @@
     font-size: 16px;
     line-height: 19px;
     font-family: inherit;
-    padding: 16px 86px;
-    font-weight: 400;
+    padding: 16px;
+    font-weight: 800;
     text-decoration: none;
     cursor: pointer;
     appearance: none;
@@ -25,4 +25,10 @@
     width: 100%;
   }
   
-  
+  .button-primary{
+    background-color: #007AC2;
+    box-shadow: 2.5px 3.2px 9px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    color:#fff;
+    width: 100%;
+  }
