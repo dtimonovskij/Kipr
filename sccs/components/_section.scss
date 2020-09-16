@@ -1,0 +1,78 @@
+$color-title:#0000;
+$color-desc:#0000;
+.section{
+    position: relative;
+    max-height: 400px;
+}
+  .section-background,
+  .section-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  .section-background {
+    z-index:-2;
+  }
+  .section-background > img {
+    height: 100%;
+  }
+  .section-overlay {
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.37);
+  }
+  .block-image-passports{
+  display: flex;
+  justify-content: center;
+  }
+  
+ .image-passports > img{
+  max-height: 310px;
+  max-width: 215px;
+ }
+ 
+ .section-investment{
+  margin-top: 33px;
+ }
+ .investment__title{
+  $color-title:#0000;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+ }
+ .section-investment__sub-titll{
+  $color-title:#0000;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+ }
+ .investment__description{
+  $color-desc:#0000;
+  line-height: 171%;
+ }
+.investment__block{
+  display: flex;
+}
+.investment__img > img{
+max-width: 442px;
+max-height: 81px;
+margin-top: 25px;
+}
+.eclipse-control{
+ color:#25EEFF;
+ width: 16px;
+ margin-right: 13px;
+}
+.section-why{
+  margin-top: 33px;
+}
+.section-why__photo > img{
+max-width: 263px;
+max-height: 381px;
+background-image :drop-shadow(-7px 24px 20px rgba(0, 0, 0, 0.45));
+}
+.investment__var-text-0{
+  margin-top: 0px;
+}

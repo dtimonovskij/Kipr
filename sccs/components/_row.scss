@@ -1,0 +1,19 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+  }
+  
+  .row > .column {
+    padding: 10px;
+  }
+ .row__var{
+   margin-top: 22px;
+ }
+ .row-why{
+  margin: -22px;
+}
+
+.row-why> .column {
+  padding: 22px;
+}
