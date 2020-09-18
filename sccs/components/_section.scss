@@ -1,7 +1,11 @@
 $color:#0000;
 .section{
     position: relative;
-    max-height: 400px;
+    margin: 80px 0px;
+}
+.section.section-passports{
+  position: relative;
+  margin-top: 0px;
 }
   .section-background,
   .section-overlay {
@@ -21,6 +25,7 @@ $color:#0000;
     z-index: -1;
     background-color: rgba(0, 0, 0, 0.37);
   }
+  
   .block-image-passports{
   display: flex;
   justify-content: center;
@@ -107,9 +112,6 @@ margin-top: 6px;
 max-width: 905px;
 margin: 0 auto;
 }
-.section-advantages{
-  margin-top: 25px;
-}
 .section-advantages__title{
   font-family: 'Raleway', sans-serif;
 }
@@ -126,4 +128,73 @@ color: #0083CA;
 }
 .section-advantages__img-secondary{
   margin-top: 30px;
+}
+.section-residents{
+max-width: 1135px;
+margin: 0 auto;
+
+}
+.section-background-residents{
+  z-index:-2;
+}
+.section-background-residents,
+.section-overlay-residents{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.section-overlay-residents{
+background-color: rgba(0, 0, 0, 0.3);
+z-index: -1;
+}
+.section-background-residents > img {
+  height: 100%;
+}
+.section-residents__content{
+  padding: 52px 16px 32px;
+  max-width: 932px;
+  margin: 0 auto;
+}
+.section-residents__title{
+font-family:'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.section-who2020__img > img{
+  max-width: 327px;
+  max-height: 306px;
+}
+.section-residents__text{
+  color: #FFFFFF;
+}
+.rhombus-control{
+  color: #00AEEF;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+.section-who2020__text{
+  margin-top: 0px;
+}
+.section-who2020__block{
+  display: flex;
+  
+}
+.section-duties__title{
+font-family: Raleway;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+text-align: center;
+}
+.section-duties__img > img{
+max-width: 441px ;
+max-height:261px ; 
 }
