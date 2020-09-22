@@ -14,7 +14,9 @@
     font-size: inherit;
     box-shadow: 2.5px 3.2px 9px rgba(0, 0, 0, 0.35);
   }
-  
+  .input-secondary{
+    width: 327px;
+  }
   .input,
   .select {
     height: 45px;
@@ -44,4 +46,9 @@
   .textarea {
     resize: none;
     height: 200px;
+  }
+  @media(min-width:320px){
+    .input{
+  width: 100%;
+   }
   }

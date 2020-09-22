@@ -3,10 +3,10 @@
     margin: 0;
     border: 1px solid transparent;
     border-radius: 30px;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 16px;
     font-family: inherit;
-    padding: 16px;
+    padding: 16px 0px;
     font-weight: 800;
     text-decoration: none;
     cursor: pointer;
@@ -30,5 +30,9 @@
     box-shadow: 2.5px 3.2px 9px rgba(0, 0, 0, 0.35);
     text-align: center;
     color:#fff;
-    width: 100%;
+  }
+  @media(min-width:320px){
+    .button-primary__telegram{
+      width: 100%;
+    }
   }
