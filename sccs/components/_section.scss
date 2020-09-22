@@ -27,15 +27,25 @@
   }
   
   .block-image-passports{
-  display: flex;
-  justify-content: center;
+    position: relative;
+  max-width: 530px;
+  margin: 0 auto;
+  padding: 20px 0px;
   }
   
+
  .image-passports > img{
   max-height: 310px;
   max-width: 215px;
+  margin: 0 auto;
  }
- 
+ .image-passports__secondary{
+   position: absolute;
+   top: 17px;
+   right: 78px;
+   transform: rotate(6.61deg);
+ }
+
  .section-investment{
   margin-top: 33px;
  }
@@ -289,6 +299,9 @@ line-height: 24px;
   .section{
     margin: 40px auto;
 }
+.image-passports__secondary {
+  right: 48px;
+}
 .section-form__img{
 display: none;
 }
@@ -322,6 +335,9 @@ position: static;
 @media(min-width:480px){
   .section{
     margin: 50px auto;
+}
+.image-passports__secondary {
+  right: 83px;
 }
 .section-form__img{
 display: block;
